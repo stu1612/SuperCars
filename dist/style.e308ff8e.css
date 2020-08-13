@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&display=swap");
+
+@font-face {
+  font-family: "Vudotronic";
+  src: url("/Vudotronic-X3A49.090b8080.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Aquire";
+  src: url("/Aquire-BW0ox.fa815676.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Aljazeera";
+  src: url("/FontAljazeeraColor-lzzD.de29c05a.ttf")
+    format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* HEADER */
+
+.header {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+}
+
+.nav {
+  position: fixed;
+  z-index: 999;
+}
+
+.header-title {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.header-title img {
+  object-fit: cover;
+  width: 100%;
+  z-index: -1;
+  height: 100vh;
+  min-height: 100%;
+}
+
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */
